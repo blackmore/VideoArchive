@@ -1,4 +1,12 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :videos
+
+  map.resources :user_sessions
+
+  map.resources :users
+
+  map.resources :customers
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
