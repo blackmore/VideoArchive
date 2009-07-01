@@ -12,8 +12,8 @@ set :repository,  "git://github.com/blackmore/videoArchive.git"
 set :scm, :git
 
 set :runner, nil
-#server "10.1.1.211", :app, :web, :db, :primary => true, :user => 'nige'
+server "10.1.1.211", :app, :web, :db, :primary => true, :user => 'nige'
 
-role :app, "10.1.1.211"
-role :web, "10.1.1.211"
-role :db,  "10.1.1.211", :primary => true
+#role :app, "10.1.1.211"
+#role :web, "10.1.1.211"
+#role :db,  "10.1.1.211", :primary => true
